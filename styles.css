@@ -31,10 +31,25 @@
       background-image: url('28fabbf8-4583-4a05-a459-400c264c4f0c.jpg');
       background-size: cover;
     }
+
+    section {
+      border: 1px solid #b3afaf;
+      margin-top: 20px;
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
+
+    section p a {
+      text-decoration: none;
+    }
+
+    section p a:hover {
+      color: #00bbff;
+    }
     
     /* Стили для колонок с текстом */
     .columns {
-        margin-top: 20px;
+      margin-top: 20px;
       display: flex;
       justify-content: space-between;
     }
