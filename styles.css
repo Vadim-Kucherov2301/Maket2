@@ -31,18 +31,21 @@
       background-image: url('28fabbf8-4583-4a05-a459-400c264c4f0c.jpg');
       background-size: cover;
     }
+    
+    h2{
+      text-align: center;
+    }
 
     section {
-      border: 1px solid #b3afaf;
-      margin-top: 20px;
-      background-color: #f1f1f1;
-      padding: 20px;
-    }
-    
-    table, th, td {
-      border: 1px solid rgb(112, 108, 108);
-      padding: 5px;
-    }
+      display: flex;
+  }
+  
+    .lastNews {
+      flex: 1;
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid #ccc;
+  }
     
    
     
