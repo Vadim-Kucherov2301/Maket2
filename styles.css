@@ -32,9 +32,24 @@
       background-size: cover;
     }
     
+    h2 {
+      text-align: center;
+    }
+
+    section {
+      display: flex;
+    }
+    
+    .lastNews {
+      flex: 1;
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid #ccc;
+    }
+    
     /* Стили для колонок с текстом */
     .columns {
-        margin-top: 20px;
+      margin-top: 20px;
       display: flex;
       justify-content: space-between;
     }
