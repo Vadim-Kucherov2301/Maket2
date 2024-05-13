@@ -27,24 +27,24 @@
     /* Стили для баннера */
     .banner {
       width: 100%;
-      height: 400px; /* Измените высоту по необходимости */
+      height: 400px; 
       background-image: url('28fabbf8-4583-4a05-a459-400c264c4f0c.jpg');
       background-size: cover;
     }
     
-    h2 {
+    .news-section__title {
       text-align: center;
     }
 
-    section {
+    .news-section {
       display: flex;
     }
     
-    .lastNews {
-      flex: 1;
+    .news-section__item {
+      border: 1px solid #b3afaf;
       padding: 10px;
-      margin: 10px;
-      border: 1px solid #ccc;
+      margin-left: 10px;
+      background-color: #f1f1f1;
     }
     
     /* Стили для колонок с текстом */
