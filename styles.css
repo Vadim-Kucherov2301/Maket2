@@ -51,13 +51,16 @@
     }
     
     /* Стили для колонок с текстом */
-    .columns {
-      margin-top: 20px;
-      display: flex;
-      justify-content: space-between;
-      
+    .product-info {
+      text-align: center;
     }
-    .column {
+
+    .product-info__columns {
+      display: flex;
+      justify-content: center;
+    }
+
+    .product-info__column {
       border: 1px solid #b3afaf;
       width: 30%;
       padding: 20px;
@@ -67,7 +70,7 @@
     }
     
     /* Стили для колонки на всю ширину */
-    .full {
+    .reviews {
       width: 100%;
       padding: 20px;
       background-color: #f1f1f1;
