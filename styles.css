@@ -3,27 +3,23 @@
     font-family: Arial, sans-serif;
     }
   
-    header {
+    .header {
       background-color: #333;
       padding: 20px;
       color: white;
     }
-    nav {
+    .header__nav {
       display: flex;
       justify-content: space-between;
     }
-    nav ul {
+    .header__nav-list {
       list-style-type: none;
       display: flex;
     }
-    nav li {
+    .header__nav-item {
       margin-right: 20px;
     }
-    header nav ul li a {
-      text-decoration: none; /* Убираем подчеркивание */
-      color: rgb(255, 255, 255);}
-
-      
+    
     /* Стили для баннера */
     .banner {
       width: 100%;
@@ -34,35 +30,47 @@
     
     .news-section__title {
       text-align: center;
+      margin-bottom: 20px;
     }
 
     .news-section {
       display: flex;
+      flex-direction: column;
     }
-    
-    .news-section__item {
-      border: 1px solid #b3afaf;
-      padding: 10px;
-      margin-left: 10px;
-      background-color: #f1f1f1;
-    }
-    
-    /* Стили для колонок с текстом */
-    .columns {
-      margin-top: 20px;
+
+    .news-section__column {
       display: flex;
       justify-content: space-between;
     }
-    .column {
+    .news-section__item {
+    border: 1px solid #b3afaf;
+    padding: 10px;
+    background-color: #f1f1f1;
+    width: calc(33.33% - 10px); 
+    margin-right: 10px; 
+    }
+    
+    /* Стили для колонок с текстом */
+    .product-info {
+      text-align: center;
+    }
+
+    .product-info__columns {
+      display: flex;
+      justify-content: center;
+    }
+
+    .product-info__column {
       border: 1px solid #b3afaf;
       width: 30%;
       padding: 20px;
       background-color: #f1f1f1;
       margin-bottom: 20px;
+      margin-right: 10px;
     }
     
     /* Стили для колонки на всю ширину */
-    .full-width {
+    .reviews {
       width: 100%;
       padding: 20px;
       background-color: #f1f1f1;
@@ -70,32 +78,39 @@
     }
     
     /* Стили для подвала */
-    footer {
+    .footer {
+      display: flex;
+      justify-content: space-between;
       background-color: #333;
       padding: 20px;
       color: white;
     }
-    footer ul {
+    .footer__nav-list {
       display: flex;
-      justify-content: flex-end;
-    }
-    footer li {
-      margin-left: 10px;
+      list-style-type: none;
     }
 
-    .social-icons {
+    .footer__nav {
+      display: flex;
+    }
+
+    .footer__nav-item {
+      margin-right: 10px;
+    }
+
+    .footer__social-icons {
         display: flex; /* Используем flexbox для управления расположением элементов */
         flex-direction: column;
         justify-content: flex-end; /* Выравниваем элементы вправо */
         align-items: flex-end; 
         
     }
-    .social-icons a {
+    .contact-links__link {
         color: #ffcc00; /* Цвет ссылки на темном фоне */
         text-decoration: none; /* Убираем подчеркивание у ссылки */
     }
     
-    .social-icons a:hover {
+    .contact-links__link:hover {
         color: #00b7ff; /* Цвет ссылки при наведении курсора */
     }
     
