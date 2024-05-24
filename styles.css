@@ -20,14 +20,25 @@
       margin-right: 20px;
     }
     
+    .nav-link {
+      color:white;
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
+    }
+    .nav-link:hover {
+      color:rgb(243, 153, 35);
+    }
+
     /* Стили для баннера */
     .banner {
       width: 100%;
       height: 400px; 
-      background-image: url('28fabbf8-4583-4a05-a459-400c264c4f0c.jpg');
+      background-image: url('banner.jpg');
       background-size: cover;
     }
     
+    /* Секция новостей */
+
     .news-section__title {
       text-align: center;
       margin-bottom: 20px;
@@ -50,7 +61,7 @@
     margin-right: 10px; 
     }
     
-    /* Стили для колонок с текстом */
+    /* Инфо о товарах */
     .product-info {
       text-align: center;
     }
@@ -69,7 +80,7 @@
       margin-right: 10px;
     }
     
-    /* Стили для колонки на всю ширину */
+    /* Отзывы */
     .reviews {
       width: 100%;
       padding: 20px;
@@ -99,18 +110,43 @@
     }
 
     .footer__social-icons {
-        display: flex; /* Используем flexbox для управления расположением элементов */
+        display: flex; 
         flex-direction: column;
-        justify-content: flex-end; /* Выравниваем элементы вправо */
+        justify-content: flex-end; 
         align-items: flex-end; 
         
     }
     .contact-links__link {
-        color: #ffcc00; /* Цвет ссылки на темном фоне */
-        text-decoration: none; /* Убираем подчеркивание у ссылки */
+        color: #ffcc00; 
+        text-decoration: none; 
     }
     
     .contact-links__link:hover {
-        color: #00b7ff; /* Цвет ссылки при наведении курсора */
+        color: #00b7ff; 
     }
     
+
+    /* Стили для страницы товаров */
+    .product {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+
+     .product__title {
+      margin-top: 30px;
+    }
+    
+    .product-card {
+      width: 600px;
+      margin: 20px;
+      padding: 10px;
+      background-color: #f1f1f1;
+      border: 1px solid #b3afaf;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+   
+
